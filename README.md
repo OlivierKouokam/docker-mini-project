@@ -2,7 +2,7 @@
 
 Please find the specifications by clicking [here](https://github.com/diranetafen/student-list.git "here")
 
-!["Crédit image : eazytraining.fr"](https://eazytraining.fr/wp-content/uploads/2020/04/pozos-logo.png) ![project](https://user-images.githubusercontent.com/18481009/84582395-ba230b00-adeb-11ea-9453-22ed1be7e268.jpg)
+![project](https://user-images.githubusercontent.com/18481009/84582395-ba230b00-adeb-11ea-9453-22ed1be7e268.jpg)
 
 ------------
 
@@ -48,10 +48,10 @@ Third and last part will be about to provide the ***deployment*** process I sugg
 
 ### The files' role
 
-In my delivery you can find three main files : a ***Dockerfile***, a ***docker-compose.yml*** and a ***docker-compose.registry.yml***
+In my delivery you can find three main files : a ***Dockerfile***, a ***docker-compose.yml*** and a ***docker-compose-registry.yml***
 
 - docker-compose.yml: to launch the application (API and web app)
-- docker-compose.registry.yml: to launch the local registry and its frontend
+- docker-compose-registry.yml: to launch the local registry and its frontend
 - simple_api/student_age.py: contains the source code of the API in python
 - simple_api/Dockerfile: to build the API image with the source code in it
 - simple_api/student_age.json: contains student name with age on JSON format
